@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Агентство Traffic by Okkam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/utils.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Navigation -->
+    <nav class="navbar bg-white shadow-md py-4 px-6 flex justify-between items-center">
+        <a href="/" class="flex items-center">
+            <img src="assets/img/common/pageHeader/logo.svg" alt="Traffic Isobar" class="h-10">
+        </a>
+        <div class="nav-menu hidden md:flex space-x-8">
+            <a href="/" class="nav-link text-gray-700 hover:text-blue-600">Главная</a>
+            <a href="/about/" class="nav-link text-blue-600 font-medium">О нас</a>
+            <a href="/insights/" class="nav-link text-gray-700 hover:text-blue-600">Новости</a>
+            <a href="/contact/" class="nav-link text-gray-700 hover:text-blue-600">Контакты</a>
+        </div>
+        <button class="menu-toggle md:hidden">
+            <i class="fas fa-bars text-xl"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero py-16 px-6 bg-gray-50">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold text-gray-800 mb-6">Об агентстве</h1>
+            <p class="text-xl text-gray-600 mb-8">Нам 22 года! Рынок рекламы ещё только набирал обороты, а мы уже запускали крутые проекты!</p>
+            <p class="text-lg text-gray-600">Мы обладаем даром предвидения трендов и знаем тысячу способов сделать клиентов счастливыми. Наша команда – это увлечённые неравнодушные люди, которые обожают амбициозные задачи.</p>
+        </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Value Card 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="w-16 h-16 bg-gray-200 mx-auto mb-4 rounded-full"></div>
+                    <h3 class="text-xl font-semibold mb-2">Честность</h3>
+                </div>
+                
+                <!-- Value Card 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="w-16 h-16 bg-gray-200 mx-auto mb-4 rounded-full"></div>
+                    <h3 class="text-xl font-semibold mb-2">Клиентоориентированность</h3>
+                </div>
+                
+                <!-- Value Card 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="w-16 h-16 bg-gray-200 mx-auto mb-4 rounded-full"></div>
+                    <h3 class="text-xl font-semibold mb-2">Дальновидность</h3>
+                </div>
+                
+                <!-- Value Card 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="w-16 h-16 bg-gray-200 mx-auto mb-4 rounded-full"></div>
+                    <h3 class="text-xl font-semibold mb-2">Надежность</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Affiliation Section -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold mb-6">С 2022 года мы входим в холдинг OKKAM</h2>
+            <p class="text-lg max-w-3xl mx-auto">Рекламная отрасль давно признала наш профессионализм. Дважды наша команда под брендами Traffic Isobar и Isobar Moscow занимала 1 место в рейтинге «Золотая Сотня Российского Digital».</p>
+        </div>
+        <div class="flex justify-center">
+            <div class="w-full max-w-2xl h-64 bg-gray-200 rounded-lg"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Услуги</h2>
+            
+            <!-- Service 1 -->
+            <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="md:w-1/4 flex justify-center">
+                        <div class="w-20 h-20 bg-gray-200 rounded-full"></div>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-2xl font-semibold mb-4">Стратегия</h3>
+                        <p class="mb-6">Находим эффективный подход к коммуникации с потребителем в любых медиа</p>
+                        
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-medium">Креативная стратегия</h4>
+                                <p>Разработка генеральной креативной идеи с дальнейшим раскладыванием по медиа каналам и инструментам</p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Медиа стратегия</h4>
+                                <p>Выявляем наиболее приоритетные для размещения ресурсы, платформы и форматы</p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Social media стратегия</h4>
+                                <p>Разрабатываем индивидуальный сценарий присутствия на социальных платформах</p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Аналитика</h4>
+                                <p>Анализируем продукт, категории, медиа-потребление, данные</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 2 placeholder -->
+            <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="md:w-1/4 flex justify-center">
+                        <div class="w-20 h-20 bg-gray-200 rounded-full"></div>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-2xl font-semibold mb-4">Media & Performance online и offline каналов</h3>
+                        <p class="mb-6">Рекламные кампании, нацеленные на результат</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3 placeholder -->
+            <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="md:w-1/4 flex justify-center">
+                        <div class="w-20 h-20 bg-gray-200 rounded-full"></div>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-2xl font-semibold mb-4">Креатив</h3>
+                        <p class="mb-6">Придумываем яркие и эффективные идеи на основе глубокой аналитики</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 4 placeholder -->
+            <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="md:w-1/4 flex justify-center">
+                        <div class="w-20 h-20 bg-gray-200 rounded-full"></div>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-2xl font-semibold mb-4">Production</h3>
+                        <p class="mb-6">Разрабатываем уникальные решения для online- и offline-форматов</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 5 placeholder -->
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="md:w-1/4 flex justify-center">
+                        <div class="w-20 h-20 bg-gray-200 rounded-full"></div>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-2xl font-semibold mb-4">Social</h3>
+                        <p class="mb-6">Применяем все возможности социальных сетей для решения задач бренда</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">Награды</h2>
+        
+        <div class="awards-carousel grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Award 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <div class="w-24 h-24 bg-gray-200 mx-auto mb-4 rounded-full"></div>
+                <p>2 золотые, 2 серебряные и 1 бронзовая награда на Московском международном фестивале рекламы</p>
+            </div>
+            
+            <!-- Award 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <div class="w-24 h-24 bg-gray-200 mx-auto mb-4 rounded-full"></div>
+                <p>Серебряная награда 2021 года; 2 серебряные и бронзовая награда 2022 года, бронзовая награда 2023 года</p>
+            </div>
+            
+            <!-- Award 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <div class="w-24 h-24 bg-gray-200 mx-auto mb-4 rounded-full"></div>
+                <p>Победа в премии Hello Blogger за «Лучшее рекламное офлайн-мероприятие с блогерами»</p>
+            </div>
+            
+            <!-- Award 4 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <div class="w-24 h-24 bg-gray-200 mx-auto mb-4 rounded-full"></div>
+                <p>Серебряная награда на национальном фестивале рекламы «Идея!»</p>
+            </div>
+            
+            <!-- Award 5 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <div class="w-24 h-24 bg-gray-200 mx-auto mb-4 rounded-full"></div>
+                <p>5 серебряных и 9 бронзовых наград конкурса Tagline Awards за 2021-2022 год</p>
+            </div>
+            
+            <!-- Award 6 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <div class="w-24 h-24 bg-gray-200 mx-auto mb-4 rounded-full"></div>
+                <p>3 бронзовые награды в конкурсе ADCR Awards</p>
+            </div>
+            
+            <!-- Award 7 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <div class="w-24 h-24 bg-gray-200 mx-auto mb-4 rounded-full"></div>
+                <p>Серебряная награда 2022 года</p>
+            </div>
+            
+            <!-- Award 8 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <div class="w-24 h-24 bg-gray-200 mx-auto mb-4 rounded-full"></div>
+                <p>Победа в номинации «Лучшая кампания с применением digital-инструментов»</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Руководство</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="assets/img/olga.jpg" alt="Ольга Петрова" class="w-40 h-40 mx-auto mb-4 rounded-full">
+                    <h3 class="text-xl font-semibold mb-2">Ольга Петрова</h3>
+                    <p class="text-gray-600">Генеральный директор</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="assets/img/natalia.png" alt="Наталия Нефедова" class="w-40 h-40 mx-auto mb-4 rounded-full">
+                    <h3 class="text-xl font-semibold mb-2">Наталия Нефедова</h3>
+                    <p class="text-gray-600">Финансовый директор</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="assets/img/julia.png" alt="Юлия Дубровина" class="w-40 h-40 mx-auto mb-4 rounded-full">
+                    <h3 class="text-xl font-semibold mb-2">Юлия Дубровина</h3>
+                    <p class="text-gray-600">Заместитель генерального директора</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0">
+                <img src="assets/img/common/pageHeader/logo.svg" alt="Traffic Isobar" class="h-10">
+            </div>
+            <div class="text-sm">
+                © 2001 – 2025
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
